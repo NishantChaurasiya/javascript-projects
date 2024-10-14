@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:#f6f0eb;
+    font-family: poppins;
+}
+.header-section{
+    display:flex ;
+    width: 100%;
+    justify-content: space-between;
+    padding-inline: 2rem;
+    align-items: center;
+    padding-block: 1rem;
+    background-color: white;
+    position: relative;
+}
+nav{
+    display: flex;
+    gap: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    }
+nav a,.list a{
+    text-decoration: none;
+    color:#552f27;
+}
+.loco-section{
+    max-width: 40px;
+}
+.loco-section img{
+    width: 100%;
+}
+.main{
+    color: #552f27;
+}
+.hero-section{
+    width: 100%;
+    margin-top: 2rem;
+    padding-inline:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-img{
+    max-width: 1500px;
+    width: 100%;
+}
+.para{
+    color: #c5aca3;
+    text-align: center;
+    margin-top: 1rem;
+}
+.box{
+    width: 100%; 
+    padding-top: 5rem;
+    padding-inline:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin-bottom: 1rem;
+}
+.box img{
+    max-width: 1200px;
+    width: 100%;
+}
+.top{
+    color: #552f27;
+    font-weight: 600;
+    font-size: 1.2rem;
+    align-self: flex-end;
+    padding-right: 2rem;
+    padding: 2rem;
+}
+.hidden{
+    display: none;
+}
+@media only screen and (max-width: 1023px) {
+   nav{
+    display: none;
+   }
+   .header-section{
+    background-color:#f6f0eb ;
+   }
+   .box img{
+    max-width: 600px;
+    width: 100%;
+   }
+   .box{
+    width: 100%; 
+    padding-top: 3rem;
+   }
+   .menu{
+    display: inline;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    background-color: white;
+    border-bottom-left-radius:5rem ;
+    cursor: pointer;
+   }
+   .list{
+    position: absolute;
+    top: 18px;
+    right: 13px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.737);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    .hide{
+        display: none;
+    }
+    .cross{
+    position: absolute;
+    top: 20px;
+    right:20px;
+    cursor: pointer;
+    }
+   .menu i{
+    color: #552f27;
+   }
+  }
+@media only screen and (max-width:750px) {
+    nav{
+     display: none;
+    }
+    .header-section{
+     background-color:#f6f0eb ;
+    }
+    .box img{
+     max-width: 300px;
+     width: 100%;
+    }
+    .box{
+     padding-top: 2rem;
+    }
+   }
